@@ -1,11 +1,23 @@
 # [City Explorer]
 
 ---------------------------------------
-Number and name of feature: Feature 1: 
+Number and name of feature: Feature 1: Setting up API and launch
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 Hour 
 
-Start time: 
+Start time: 1600
+
+Finish time: 1700
+
+Actual time needed to complete: 1 hour
+
+---------------------------------------
+---------------------------------------
+Number and name of feature: Feature 2: Build an "Explore!" form
+
+Estimate of time needed to complete: 1 Hour 
+
+Start time: 1700
 
 Finish time: 
 
