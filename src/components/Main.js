@@ -3,21 +3,26 @@ import Map from './Map'
 import MessageBox from './MessageBox'
 import ExploreForm from './ExploreForm'
 import { Card } from 'react-bootstrap'
+import styles from './Main.module.css'
 export default class Main extends Component {
   render() {
+
+
+
     return (
 
-      <main>
+      <main className={styles.wrapper}>
         <section>
-          <Card>
+          <Card className={styles.card}>
+          <h1>City Explorer</h1>
             <ExploreForm />
           </Card>
         </section>
         <section>
-          <Card>
+          <Card className={styles.card}>
             <MessageBox />
           </Card>
-          <Card>
+          <Card className={styles.card}>
             <Map />
           </Card>
         </section>

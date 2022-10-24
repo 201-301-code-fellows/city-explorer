@@ -19,11 +19,24 @@ Estimate of time needed to complete: 1 Hour
 
 Start time: 1700
 
+Finish time: 1820
+
+Actual time needed to complete: 80 mins
+
+---------------------------------------
+---------------------------------------
+Number and name of feature: Feature 3: Call API to update page
+
+Estimate of time needed to complete: 3 Hours 
+
+Start time: 1830
+
 Finish time: 
 
 Actual time needed to complete: 
 
 ---------------------------------------
+
 
 Live view on:  
 https://tm-lbenson-city-explorer.netlify.app/
