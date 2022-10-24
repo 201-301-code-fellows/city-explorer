@@ -22,7 +22,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Overview]
 
-[WRRC]('../public/assets/WRRC-lab-06.png')
+[WRRC](../public/assets/WRRC-lab-06.png)
 ## [Architecture]
 
 
