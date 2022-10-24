@@ -14,7 +14,7 @@ Actual time needed to complete:
 ---------------------------------------
 
 Live view on:  
-tm-lbenson-city-explorer.netlify.app  
+https://tm-lbenson-city-explorer.netlify.app/
 
 ## [Motivation]
 
