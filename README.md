@@ -20,6 +20,12 @@ tm-lbenson-city-explorer.netlify.app
 
 This project is part of a class requirement for Code Fellows 301 lab-06.
 
+## [Overview]
+
+[WRRC](/home/lbenson/projects/courses/301/city-explorer/public/assets/WRRC-lab-06.png)
+## [Architecture]
+
+
 ## [Build Status]
 
 
