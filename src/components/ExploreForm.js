@@ -10,9 +10,11 @@ export default class ExploreForm extends Component {
   }
   submitHandle = (e) => {
     e.preventDefault()
-    this.setState({ city: e.target.search.value }, () => {
-      console.log(this.state.city)
-    })
+    if (e.target.search.value) {
+      this.setState({ city: e.target.search.value }, () => {
+        console.log(this.state.city)
+      })
+    }
   }
   render() {
 
