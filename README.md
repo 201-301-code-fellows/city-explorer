@@ -22,7 +22,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Overview]
 
-[WRRC](../public/assets/WRRC-lab-06.png)
+[WRRC](https://github.com/tm-LBenson/city-explorer/blob/main/public/assets/WRRC-lab-06.png?raw=true)
 ## [Architecture]
 
 
