@@ -1,11 +1,35 @@
 # [City Explorer]
 
 ---------------------------------------
-Number and name of feature: Feature 1: 
+Number and name of feature: Feature 1: Setting up API and launch
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 Hour 
 
-Start time: 
+Start time: 1600
+
+Finish time: 1700
+
+Actual time needed to complete: 1 hour
+
+---------------------------------------
+---------------------------------------
+Number and name of feature: Feature 2: Build an "Explore!" form
+
+Estimate of time needed to complete: 1 Hour 
+
+Start time: 1700
+
+Finish time: 1820
+
+Actual time needed to complete: 80 mins
+
+---------------------------------------
+---------------------------------------
+Number and name of feature: Feature 3: Call API to update page
+
+Estimate of time needed to complete: 3 Hours 
+
+Start time: 1830
 
 Finish time: 
 
@@ -13,8 +37,9 @@ Actual time needed to complete:
 
 ---------------------------------------
 
+
 Live view on:  
-tm-lbenson-city-explorer.netlify.app  
+https://tm-lbenson-city-explorer.netlify.app/
 
 ## [Motivation]
 
@@ -23,6 +48,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 ## [Overview]
 
 [WRRC](https://github.com/tm-LBenson/city-explorer/blob/main/public/assets/WRRC-lab-06.png?raw=true)
+
 ## [Architecture]
 
 
@@ -36,9 +62,7 @@ This lets the users know that you have used a particular code style and helps th
 ## [Screenshots]
 
 
-
 ## [Tech/Framework used]
-
 
 
 ## [Features]
