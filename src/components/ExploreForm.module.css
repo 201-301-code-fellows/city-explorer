@@ -8,10 +8,13 @@ align-items: center;
 }
 form input{
   height: 30px;
+
+  font-size: 1.3rem !important;
 }
 
 
 form label {
+  font-size: 1.5rem;
   color: #333;
 }
 
@@ -28,4 +31,15 @@ form label {
   background-color: green;
   transform: translateY(-4px);
   box-shadow: 1px 5px 5px rgba(51, 51, 51, 0.339);
+}
+
+
+@media(min-width: 767px){
+  .button{ width: 40%;}
+  .form{
+    width: 700px;
+  }
+  .form input{
+    width: 500px;
+  }
 }

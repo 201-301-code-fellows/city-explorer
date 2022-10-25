@@ -5,3 +5,19 @@
   display:block;
   color: #333;
 }
+
+@media(min-width: 1169px){
+  h1{
+    width: 100%;
+    text-align: left;
+    font-size: 4.5rem;
+    margin: 20px;
+  }
+h5{
+  width: 100%;
+  text-align: left;
+  font-size: 3rem;
+  margin: 10px;
+}
+
+}
