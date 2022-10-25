@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import styles from './MessageBox.module.css'
 export default class MessageBox extends Component {
 
 
@@ -8,9 +8,9 @@ export default class MessageBox extends Component {
     return (
       <section>
         <h1>{this.props.cityData.city}</h1>
-        <h5><span>Latitude:</span> {this.props.cityData.lat}</h5>
-        <h5><span>Longitude:</span> {this.props.cityData.lon}</h5>
-        <img src={this.props.cityData.icon}></img>
+        <h5><span>Latitude: {this.props.cityData.lat}</span></h5>
+        <h5><span>Longitude: {this.props.cityData.lon}</span></h5>
+
       </section>
     )
   }

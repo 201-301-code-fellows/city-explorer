@@ -25,10 +25,9 @@ export default class Main extends Component {
     this.setState({ city: formValue })
   }
 
-  componentDidUpdate() {
-    if (this.state.city) {
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.city && this.state.city !== prevState.city) {
       const data = findNewCity(this.state.city)
-
       data.then((data) => {
         if (data) {
           console.log(data.data)
