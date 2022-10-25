@@ -6,13 +6,16 @@ import { Card } from 'react-bootstrap'
 import styles from './Main.module.css'
 import axios from 'axios'
 
+
+
 const findNewCity = async (city) => {
   try {
     const data = await axios.get(`https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_GEO_KEY}&q=${city}&format=json`)
     return data;
   }
   catch (error) {
-    console.log(error.message + " inside catch")
+    const dataError = error.message
+    return dataError
   }
 }
 export default class Main extends Component {
@@ -29,20 +32,24 @@ export default class Main extends Component {
     if (this.state.city && this.state.city !== prevState.city) {
       const data = findNewCity(this.state.city)
       data.then((data) => {
-        if (data) {
-          console.log(data.data)
+
+        if (data.data) {
+
           return this.setState({
             city: this.state.city,
             lon: data.data[0].lon,
             lat: data.data[0].lat,
-            icon: data.data[0].icon
+            found: true,
+            error: ''
+
           })
+        } else if (typeof data === typeof '') {
+
+          this.setState({ error: data, found: false, lon: '', lat: '' })
         }
       })
     }
   }
-
-
 
   render() {
 
@@ -59,10 +66,10 @@ export default class Main extends Component {
         </section>
         <section>
           <Card className={styles.card}>
-            <MessageBox mapUrl={`https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_GEO_KEY}&q=${this.state.city}&format=json`} cityData={this.state} />
+            <MessageBox cityData={this.state} />
           </Card>
           <Card className={styles.card}>
-            <Map />
+            <Map mapUrl={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_GEO_KEY}&center=${this.state.lat},${this.state.lon}&size=${this.state.found ? '300x200' : '1x1'}&zoom=10&path=fillcolor:%2390EE90|weight:2|color:blue|`} />
           </Card>
         </section>
       </main>

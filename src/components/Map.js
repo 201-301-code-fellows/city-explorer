@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Map extends Component {
   render() {
     return (
-      <div>Map</div>
+      <img alt='map of a city' src={this.props.mapUrl}></img>
     )
   }
 }
