@@ -12,7 +12,7 @@ export default class ExploreForm extends Component {
     e.preventDefault()
     if (e.target.search.value) {
       this.setState({ city: e.target.search.value }, () => {
-        console.log(this.state.city)
+        this.props.onGetDataForSearch(this.state.city)
       })
     }
   }
