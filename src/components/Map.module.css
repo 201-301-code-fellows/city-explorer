@@ -1,0 +1,17 @@
+.card-map{
+
+height: 100%;
+
+}
+
+.card-map img{
+  height: 100%;
+  width: 300px;
+}
+
+@media(min-width: 767px){
+  .card-map img{
+    height: 100%;
+    width: 600px;
+  }
+}
