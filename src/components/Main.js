@@ -5,7 +5,7 @@ import ExploreForm from './ExploreForm'
 import { Card } from 'react-bootstrap'
 import styles from './Main.module.css'
 import axios from 'axios'
-
+import Footer from './Footer'
 
 
 const findNewCity = async (city) => {
@@ -71,6 +71,7 @@ export default class Main extends Component {
           <Card className={styles.card}>
             <Map mapUrl={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_GEO_KEY}&center=${this.state.lat},${this.state.lon}&size=${this.state.found ? '300x200' : '1x1'}&zoom=10&path=fillcolor:%2390EE90|weight:2|color:blue|`} />
           </Card>
+          <Footer />
         </section>
       </main>
 
