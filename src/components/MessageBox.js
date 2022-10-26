@@ -10,7 +10,8 @@ const weatherChecker = async (city, lat, lon) => {
   }
 
   catch (error) {
-    const weatherError = error.message
+    const weatherError = error.response.data
+
     return weatherError
   }
 
@@ -31,13 +32,15 @@ export default class MessageBox extends Component {
 
       const weatherData = weatherChecker(this.props.cityData.city, this.props.cityData.lat, this.props.cityData.lon)
       weatherData.then((data) => {
-
+        if (typeof data === typeof 'string') {
+          this.setState({ errorFound: true, error: data })
+        }
         if (data.data) {
-          this.setState(() => ({ weatherData: data.data, cityName: this.props.cityData.city }), () => {
+          this.setState(() => ({ weatherData: data.data, cityName: this.props.cityData.city, error: '' }), () => {
 
           })
         }
-      }).catch(error => console.log(error))
+      })
 
     }
   }
@@ -56,7 +59,7 @@ export default class MessageBox extends Component {
           <h5 className={this.props.cityData.error ? styles.span : styles.none}>{this.props.cityData.error}</h5>
         </section>
         <section>
-          <WeatherMessage weatherData={this.state.weatherData} />
+          <WeatherMessage error={this.state.errorFound ? this.state.error : false} weatherData={this.state.weatherData} />
         </section>
       </div>
     )

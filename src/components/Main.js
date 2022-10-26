@@ -55,7 +55,7 @@ export default class Main extends Component {
   }
 
   render() {
- 
+
     return (
 
       <main className={styles.wrapper}>
