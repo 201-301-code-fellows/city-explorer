@@ -1,6 +1,19 @@
 # [City Explorer]
 
 ---------------------------------------
+Number and name of feature: Feature 1: Call Server API to update weather
+
+Estimate of time needed to complete: 3 Hours 
+
+Start time: 1930
+
+Finish time: 2130
+
+Actual time needed to complete: 2 hours
+
+---------------------------------------
+
+---------------------------------------
 Number and name of feature: Feature 1: Setting up API and launch
 
 Estimate of time needed to complete: 1 Hour 
