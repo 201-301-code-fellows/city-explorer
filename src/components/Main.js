@@ -19,10 +19,12 @@ const findNewCity = async (city) => {
     return dataError
   }
 }
+
+
 export default class Main extends Component {
   constructor() {
     super()
-    this.state = {}
+    this.state = { city: '' }
   }
 
   getDataForSearch = (formValue) => {
@@ -46,15 +48,13 @@ export default class Main extends Component {
           })
         } else if (typeof data === typeof '') {
 
-          this.setState({ error: data, found: false, lon: '', lat: '' })
+          this.setState({ error: data, found: false, lon: '', lat: '', city: 'none' })
         }
       })
     }
   }
 
   render() {
-
-
 
     return (
 
@@ -69,7 +69,7 @@ export default class Main extends Component {
           <Card className={styles.card}>
             <MessageBox cityData={this.state} />
           </Card>
-          <Card  className={styles.cardMap}>
+          <Card className={styles.cardMap}>
             <Map mapUrl={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_GEO_KEY}&center=${this.state.lat},${this.state.lon}&size=${this.state.found ? '300x200' : '1x1'}&zoom=10&path=fillcolor:%2390EE90|weight:2|color:blue|`} />
           </Card >
           <Footer />
