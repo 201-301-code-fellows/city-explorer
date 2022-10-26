@@ -5,7 +5,7 @@ import WeatherMessage from './WeatherMessage'
 const weatherChecker = async (city, lat, lon) => {
 
   try {
-    const weatherData = await axios.get(`http://localhost:3001/?city_name=${city}&lat=${lat}&lon=${lon}`)
+    const weatherData = await axios.get(`https://lbenson-city-explorer.herokuapp.com/weather?city_name=${city}&lat=${lat}&lon=${lon}`)
     return weatherData;
   }
 

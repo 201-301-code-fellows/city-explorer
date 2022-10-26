@@ -3,7 +3,7 @@ import styles from './WeatherMessage.module.css'
 
 export default class WeatherMessage extends Component {
   render() {
-    console.log(this.props.error)
+
     return (
       this.props.error ? <h2>No weather data found</h2> :
         < section >
