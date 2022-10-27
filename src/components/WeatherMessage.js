@@ -13,10 +13,10 @@ export default class WeatherMessage extends Component {
             {this.props.weatherData ?
               this.props.weatherData.map((item, index) => {
                 return (<Accordion.Item key={index} eventKey={index}>
-                  <Accordion.Header>{item.date}</Accordion.Header>
+                  <Accordion.Header className={styles.text}>{item.date}</Accordion.Header>
                   <Accordion.Body>
                     <ul>
-                      <li>{item.description}</li>
+                      <li className={styles.text}>{item.description}</li>
                     </ul>
                   </Accordion.Body>
                 </Accordion.Item>

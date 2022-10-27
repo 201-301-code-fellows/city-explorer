@@ -34,24 +34,24 @@ export default class MovieData extends Component {
         {this.state.movieFound ? this.state.data.map(item => {
 
           return (<Accordion.Item key={item.id} eventKey={item.id}>
-            <Accordion.Header>{item.title}</Accordion.Header>
+            <Accordion.Header className={styles.text}>{item.title}</Accordion.Header>
             <Accordion.Body>
-              <ul className={styles.text}>
-                <li>
-                  {item.overview}
+              <ul >
+                <li className={styles.text}>
+                  Overview: {item.overview}
                 </li>
-                <li>
-                  {item.popularity}
+                <li className={styles.text}>
+                  Popularity: {item.popularity}
                 </li>
-                <li>
-                  {item.released}
+                <li className={styles.text}>
+                  Released: {item.released}
                 </li>
-                <li>
-                  {item.votes}
+                <li className={styles.text}>
+                  Votes: {item.votes}
                 </li>
-                <li>
-                  {item.voteAvg}
-                </li>
+                <li className={styles.text}>
+                  Vote Average: {item.voteAvg}
+                </li >
               </ul>
             </Accordion.Body>
           </Accordion.Item>
