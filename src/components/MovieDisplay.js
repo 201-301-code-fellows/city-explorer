@@ -8,7 +8,7 @@ export default class MovieDisplay extends Component {
     super(props)
     this.state = {
       movieFound: this.props.cityFound,
-      render: 'show',
+      render: 'none',
       city: this.props.queryData
     }
   }
