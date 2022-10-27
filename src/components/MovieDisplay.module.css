@@ -1,9 +1,3 @@
-.card {
-  width: 92vw;
-  height: 900px;
-  margin-bottom: 100px;
-  overflow: scroll;
-}
 body {
   display: flex;
 }
@@ -14,4 +8,8 @@ body {
 
 .show {
   display: block;
+}
+
+.card {
+  height: 100%;
 }
