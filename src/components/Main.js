@@ -5,7 +5,7 @@ import ExploreForm from './ExploreForm'
 import { Card } from 'react-bootstrap'
 import styles from './Main.module.css'
 import axios from 'axios'
-import Footer from './Footer'
+import MovieDisplay from './MovieDisplay'
 
 
 
@@ -47,8 +47,8 @@ export default class Main extends Component {
 
           })
         } else if (typeof data === typeof '') {
-
-          this.setState({ error: data, found: false, lon: '', lat: '', city: 'none' })
+          console.log('running')
+          this.setState({ error: data, found: false, lon: '', lat: '', city: '' })
         }
       })
     }
@@ -57,25 +57,28 @@ export default class Main extends Component {
   render() {
 
     return (
-
-      <main className={styles.wrapper}>
-        <section>
-          <Card className={styles.card}>
-            <h1>City Explorer</h1>
-            <ExploreForm onGetDataForSearch={this.getDataForSearch} />
-          </Card>
-        </section>
-        <section>
-          <Card className={styles.card}>
-            <MessageBox cityData={this.state} />
-          </Card>
+      <div>
+        <main className={styles.wrapper}>
+          <section>
+            <Card className={styles.card}>
+              <h1>City Explorer</h1>
+              <ExploreForm onGetDataForSearch={this.getDataForSearch} />
+            </Card>
+          </section>
           <Card className={styles.cardMap}>
             <Map mapUrl={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_GEO_KEY}&center=${this.state.lat},${this.state.lon}&size=${this.state.found ? '300x200' : '1x1'}&zoom=10&path=fillcolor:%2390EE90|weight:2|color:blue|`} />
           </Card >
-          <Footer />
-        </section>
-      </main>
 
+          <section>
+            <Card className={styles.card}>
+              <MessageBox cityData={this.state} />
+            </Card>
+          </section>
+        </main>
+
+
+        <MovieDisplay className={styles.movies} cityFound={this.state.found} queryData={this.state.city} />
+      </div>
     )
   }
 }

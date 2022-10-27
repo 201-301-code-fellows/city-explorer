@@ -1,9 +1,38 @@
 # [City Explorer]
 
----------------------------------------
+---
+
+Number and name of feature: Feature 2: connecting to backend for movie api
+
+Estimate of time needed to complete: 2 Hour
+
+Start time: 1900
+
+Finish time: 2100
+
+Actual time needed to complete: 2 hour
+
+---
+
+---
+
+Number and name of feature: Feature 1: connecting to backend for weather updates
+
+Estimate of time needed to complete: 1 Hour
+
+Start time: 1800
+
+Finish time: 1900
+
+Actual time needed to complete: 1 hour
+
+---
+
+---
+
 Number and name of feature: Feature 1: Setting up API and launch
 
-Estimate of time needed to complete: 1 Hour 
+Estimate of time needed to complete: 1 Hour
 
 Start time: 1600
 
@@ -11,11 +40,13 @@ Finish time: 1700
 
 Actual time needed to complete: 1 hour
 
----------------------------------------
----------------------------------------
+---
+
+---
+
 Number and name of feature: Feature 2: Build an "Explore!" form
 
-Estimate of time needed to complete: 1 Hour 
+Estimate of time needed to complete: 1 Hour
 
 Start time: 1700
 
@@ -23,20 +54,21 @@ Finish time: 1820
 
 Actual time needed to complete: 80 mins
 
----------------------------------------
----------------------------------------
+---
+
+---
+
 Number and name of feature: Feature 3: Call API to update page
 
-Estimate of time needed to complete: 3 Hours 
+Estimate of time needed to complete: 3 Hours
 
 Start time: 1830
 
-Finish time: 
+Finish time:
 
-Actual time needed to complete: 
+Actual time needed to complete:
 
----------------------------------------
-
+---
 
 Live view on:  
 https://tm-lbenson-city-explorer.netlify.app/
@@ -51,9 +83,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Architecture]
 
-
 ## [Build Status]
-
 
 ## [Code Style]
 
@@ -61,28 +91,23 @@ This lets the users know that you have used a particular code style and helps th
 
 ## [Screenshots]
 
-
 ## [Tech/Framework used]
 
-
 ## [Features]
-
 
 ## [Code Examples]
 
 ## [Installation]
 
-type ```npm install``` in a terminal to install the dependencies.
+type `npm install` in a terminal to install the dependencies.
 
 ## [API reference]
 
-
 ## [Tests]
-
 
 ## [How to Use?]
 
-```npm start``` to run the live server
+`npm start` to run the live server
 
 ## [Contribute]
 
