@@ -16,4 +16,6 @@ li {
   display: block;
 }
 
-
+.text {
+  font-size: 1.3rem;
+}
