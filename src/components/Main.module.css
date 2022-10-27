@@ -6,6 +6,7 @@ main {
   grid-template-areas:
     'movies form weather'
     'movies  map weather';
+  gap: 20px;
 }
 
 .form {

@@ -77,7 +77,9 @@ export default class Main extends Component {
             </Card>
           </section>
           <section className={styles.movies}>
-            <MovieDisplay className={styles.movies} cityFound={this.state.found} queryData={this.state.city} />
+            <Card className={styles.card}>
+              <MovieDisplay className={styles.movies} cityFound={this.state.found} queryData={this.state.city} />
+            </Card>
           </section>
         </main>
 
