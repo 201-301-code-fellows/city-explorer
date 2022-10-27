@@ -1,0 +1,17 @@
+.card {
+  width: 92vw;
+  height: 900px;
+  margin-bottom: 100px;
+  overflow: scroll;
+}
+body {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.show {
+  display: block;
+}
