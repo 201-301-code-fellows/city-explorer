@@ -13,6 +13,7 @@ Finish time: 1730
 Actual time needed to complete: 30 minutes
 
 ---
+
 ---
 
 Number and name of feature: Feature 2: connecting to backend for movie api
@@ -43,11 +44,11 @@ Actual time needed to complete: 1 hour
 
 ---
 
-=======
----------------------------------------
+## =======
+
 Number and name of feature: Feature 1: Call Server API to update weather
 
-Estimate of time needed to complete: 3 Hours 
+Estimate of time needed to complete: 3 Hours
 
 Start time: 1930
 
@@ -55,9 +56,9 @@ Finish time: 2130
 
 Actual time needed to complete: 2 hours
 
----------------------------------------
+---
 
----------------------------------------
+---
 
 Number and name of feature: Feature 1: Setting up API and launch
 
@@ -108,19 +109,18 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Overview]
 
-
 <img src="https://user-images.githubusercontent.com/105423307/198404279-1b820fbe-c98f-4f20-979d-131dfa2bfed1.png"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
-    
+
 <img src="https://user-images.githubusercontent.com/105423307/198409100-20981948-5c4f-408f-a549-724efc0f8a15.png"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
-    
+
 <img src="https://user-images.githubusercontent.com/105423307/198409154-2e189185-9b4a-4c3f-b878-b680e6ad93c5.png"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
-     
+
 ## [Architecture]
 
 ## [Build Status]
