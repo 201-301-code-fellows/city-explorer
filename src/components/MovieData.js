@@ -25,7 +25,7 @@ export default class MovieData extends Component {
     }
   }
   render() {
-    console.log(this.props)
+ 
     return (
       <Accordion>
 
