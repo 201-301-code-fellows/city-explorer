@@ -13,7 +13,7 @@ export default class MovieDisplay extends Component {
     }
   }
   componentDidUpdate(prevProps, prevState) {
-
+  
     if (this.props?.cityFound && this.state.city !== this.props.queryData) {
       axios.get(`${process.env.REACT_APP_URL_MOVIES}movies?city_name=${this.props.queryData}`).then(data => {
         return this.setState({ city: this.props.queryData, movieFound: true, render: 'show', data: data.data })

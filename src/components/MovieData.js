@@ -10,10 +10,6 @@ export default class MovieData extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-
-
-
-
     if (this.state) {
 
       if (this.state.city !== prevProps.displayData.city) {
@@ -23,9 +19,15 @@ export default class MovieData extends Component {
       }
 
     }
+    if (prevProps !== this.props) {
+      this.forceUpdate()
+    }
+
+
+
   }
   render() {
- 
+    console.log(this.props)
     return (
       <Accordion>
 
