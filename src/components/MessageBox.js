@@ -5,7 +5,7 @@ import WeatherMessage from './WeatherMessage'
 const weatherChecker = async (city, lat, lon) => {
 
   try {
-    const weatherData = await axios.get(`http://localhost:3001/weather?&lat=${lat}&lon=${lon}`)
+    const weatherData = await axios.get(`${process.env.REACT_APP_URL_WEATHER}weather?&lat=${lat}&lon=${lon}`)
     return weatherData;
   }
 
