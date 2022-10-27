@@ -2,16 +2,21 @@ h1 {
   color: #333;
 }
 form input {
+  margin: auto;
   height: 30px;
-
+  padding: 0 10px !important;
+  width: 60% !important;
   font-size: 1.3rem !important;
 }
 
 form label {
+  margin-left: 21%;
   font-size: 1.5rem;
   color: #333;
 }
-
+small {
+  margin-left: 21% !important;
+}
 .button {
   width: 80%;
   height: 50px;
@@ -33,4 +38,8 @@ form label {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+div:has(label) {
+  width: 100%;
 }

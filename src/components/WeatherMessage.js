@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styles from './WeatherMessage.module.css'
 import { Accordion } from 'react-bootstrap'
+import WeatherDay from './WeatherDay'
 export default class WeatherMessage extends Component {
   render() {
 
@@ -12,14 +13,8 @@ export default class WeatherMessage extends Component {
           </h2><ul><Accordion>
             {this.props.weatherData ?
               this.props.weatherData.map((item, index) => {
-                return (<Accordion.Item key={index} eventKey={index}>
-                  <Accordion.Header className={styles.text}>{item.date}</Accordion.Header>
-                  <Accordion.Body>
-                    <ul>
-                      <li className={styles.text}>{item.description}</li>
-                    </ul>
-                  </Accordion.Body>
-                </Accordion.Item>
+                return (
+                  <WeatherDay item={item} index={index} />
                 )
 
               }) : <></>
