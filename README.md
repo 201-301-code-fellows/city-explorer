@@ -1,6 +1,18 @@
 # [City Explorer]
 
+---
 
+Number and name of feature: Feature 1: Create WeatherDay component
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 1700
+
+Finish time: 1730
+
+Actual time needed to complete: 30 minutes
+
+---
 ---
 
 Number and name of feature: Feature 2: connecting to backend for movie api
@@ -97,7 +109,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 ## [Overview]
 
 
-<img src="https://github.com/tm-LBenson/city-explorer/blob/main/public/assets/WRRC-lab-06.png?raw=true"
+<img src="https://user-images.githubusercontent.com/105423307/198403749-8710b1b9-9ab9-4869-9f4d-a7cb3e98840e.png"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
      
