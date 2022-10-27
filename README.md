@@ -109,7 +109,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 ## [Overview]
 
 
-<img src="https://user-images.githubusercontent.com/105423307/198403749-8710b1b9-9ab9-4869-9f4d-a7cb3e98840e.png"
+<img src="https://user-images.githubusercontent.com/105423307/198404279-1b820fbe-c98f-4f20-979d-131dfa2bfed1.png"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
      
