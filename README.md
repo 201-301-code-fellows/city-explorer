@@ -1,6 +1,5 @@
 # [City Explorer]
 
-
 ---
 
 Number and name of feature: Feature 2: connecting to backend for movie api
@@ -31,11 +30,11 @@ Actual time needed to complete: 1 hour
 
 ---
 
-=======
----------------------------------------
+## =======
+
 Number and name of feature: Feature 1: Call Server API to update weather
 
-Estimate of time needed to complete: 3 Hours 
+Estimate of time needed to complete: 3 Hours
 
 Start time: 1930
 
@@ -43,9 +42,9 @@ Finish time: 2130
 
 Actual time needed to complete: 2 hours
 
----------------------------------------
+---
 
----------------------------------------
+---
 
 Number and name of feature: Feature 1: Setting up API and launch
 
@@ -96,11 +95,10 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Overview]
 
-
 <img src="https://github.com/tm-LBenson/city-explorer/blob/main/public/assets/WRRC-lab-06.png?raw=true"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
-     
+
 ## [Architecture]
 
 ## [Build Status]
