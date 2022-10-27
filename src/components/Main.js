@@ -62,6 +62,10 @@ export default class Main extends Component {
           <section>
             <Card className={styles.card}>
               <h1>City Explorer</h1>
+              <div className={styles.flash}>
+                <h2>There is a known bug:</h2>
+                <h3>To see movie data, the first attempt will not render, select a new city to see movie data</h3>
+              </div>
               <ExploreForm onGetDataForSearch={this.getDataForSearch} />
             </Card>
           </section>
