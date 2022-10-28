@@ -108,6 +108,9 @@ https://tm-lbenson-city-explorer.netlify.app/
 This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Overview]
+<img src="https://user-images.githubusercontent.com/105423307/198741597-aebc4ab3-cbb1-4036-b4ea-eae6c02ce9d5.png"
+     alt="WRRC Diagram"
+     style="float: left; margin-right: 10px; width:50%" />
 
 <img src="https://user-images.githubusercontent.com/105423307/198404279-1b820fbe-c98f-4f20-979d-131dfa2bfed1.png"
      alt="WRRC Diagram"
